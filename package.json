@@ -1,0 +1,27 @@
+{
+  "name": "wechat-aichifan",
+  "version": "1.0.0",
+  "description": "微信自动回复，发布在Openshift平台",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qyfbq123/wechat-aichifan.git"
+  },
+  "keywords": [
+    "wechat",
+    "openshift"
+  ],
+  "author": "Yoda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qyfbq123/wechat-aichifan/issues"
+  },
+  "homepage": "https://github.com/qyfbq123/wechat-aichifan#readme",
+  "dependencies": {
+    "express": "^4.13.0",
+    "weixin-robot": "^0.5.9"
+  }
+}
