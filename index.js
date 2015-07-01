@@ -42,7 +42,7 @@ webot.set('test', {
 //
 
 // 接管消息请求
-webot.watch(app, { token: 'your1weixin2token', path: '/wechat' });
+webot.watch(app, { token: 'onlytest', path: '/wechat' });
 
 // 如果需要多个实例（即为多个微信账号提供不同回复）：
 var webot2 = new webot.Webot();
