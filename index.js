@@ -57,7 +57,7 @@ webot2.watch(app, {
 
 // 启动 Web 服务
 // 微信后台只允许 80 端口
-app.listen(80);
+app.listen(process.env.PORT || 5000);
 
 // 如果你不想让 node 应用直接监听 80 端口
 // 可以尝试用 nginx 或 apache 自己做一层 proxy
